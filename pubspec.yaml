@@ -1,0 +1,25 @@
+name: assignment
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.1.0-262.0.dev <4.0.0"
+
+dependencies:
+  get: 4.6.5
+  get_it: ^7.6.0
+  shared_preferences: ^2.2.0
+  http: ^0.13.6
+  audioplayers: ^4.1.0
+  flutter_animate: ^4.2.0
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
